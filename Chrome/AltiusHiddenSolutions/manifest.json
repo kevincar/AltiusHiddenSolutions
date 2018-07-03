@@ -1,0 +1,21 @@
+{
+  "name": "Altius Hide Solutions",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Hide your naswers",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Hide Answers!",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "https://mcat.altiustestprep.com/*",
+    "http://mcat.altiustestprep.com/*",
+    "activeTab"
+  ]
+}
